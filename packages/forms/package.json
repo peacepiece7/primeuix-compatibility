@@ -1,5 +1,5 @@
 {
-    "name": "@primeuix/forms",
+    "name": "@peacepieceuix-compatibility/forms",
     "version": "0.0.4",
     "author": "PrimeTek Informatics",
     "description": "",
@@ -35,7 +35,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@peacepieceuix-compatibility/utils": "workspace:^"
     },
     "devDependencies": {
         "yup": "^1.4.0",

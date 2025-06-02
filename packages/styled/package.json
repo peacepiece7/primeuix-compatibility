@@ -1,5 +1,5 @@
 {
-    "name": "@primeuix/styled",
+    "name": "@peacepieceuix-compatibility/styled",
     "version": "0.6.3",
     "author": "PrimeTek Informatics",
     "description": "",
@@ -41,7 +41,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@peacepieceuix-compatibility/utils": "workspace:^"
     },
     "engines": {
         "node": ">=12.11.0"

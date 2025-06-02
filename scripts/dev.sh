@@ -5,7 +5,7 @@ case $1 in
         cd submodules/primeng && pnpm run dev
         ;;
     vue)
-        cd submodules/primevue && pnpm run hot:dev
+        cd submodules/primevue-compatibility && pnpm run hot:dev
         ;;
     react)
         cd submodules/primereact && pnpm run dev

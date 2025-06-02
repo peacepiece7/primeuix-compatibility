@@ -8,7 +8,7 @@ case $1 in
         cd ../primeng && pnpm link @primeuix/themes @primeuix/styles --global
         ;;
     vue)
-        cd submodules/primevue && pnpm run setup && \
+        cd submodules/primevue-compatibility && pnpm run setup && \
         cd apps/showcase && pnpm link @primeuix/themes @primeuix/styles --global && \
         cd ../../packages/core && pnpm link @primeuix/styled @primeuix/utils --global && \
         cd ../themes && pnpm link @primeuix/themes @primeuix/styles --global && \

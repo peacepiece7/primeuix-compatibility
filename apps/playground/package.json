@@ -10,11 +10,11 @@
     },
     "devDependencies": {
         "vite": "^6.1.0",
-        "@primeuix/forms": "workspace:*",
-        "@primeuix/locale": "workspace:*",
-        "@primeuix/styled": "workspace:*",
-        "@primeuix/styles": "workspace:*",
-        "@primeuix/themes": "workspace:*",
-        "@primeuix/utils": "workspace:*"
+        "@peacepieceuix-compatibility/forms": "workspace:*",
+        "@peacepieceuix-compatibility/locale": "workspace:*",
+        "@peacepieceuix-compatibility/styled": "workspace:*",
+        "@peacepieceuix-compatibility/styles": "workspace:*",
+        "@peacepieceuix-compatibility/themes": "workspace:*",
+        "@peacepieceuix-compatibility/utils": "workspace:*"
     }
 }
