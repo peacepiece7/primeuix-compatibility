@@ -1,5 +1,5 @@
-import { toValues } from '@primeuix/forms/utils';
-import { isNotEmpty } from '@primeuix/utils/object';
+import { toValues } from '@peacepieceuix-compatibility/forms/utils';
+import { isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
 import { getDotPath, InferOutput, safeParse, safeParseAsync } from 'valibot';
 import type { ResolverOptions, ResolverResult } from '..';
 

@@ -1,5 +1,5 @@
-import { toValues } from '@primeuix/forms/utils';
-import { isNotEmpty } from '@primeuix/utils/object';
+import { toValues } from '@peacepieceuix-compatibility/forms/utils';
+import { isNotEmpty } from '@peacepieceuix-compatibility/utils/object';
 import type { ParseParams, Schema } from 'zod';
 import type { ResolverOptions, ResolverResult } from '..';
 

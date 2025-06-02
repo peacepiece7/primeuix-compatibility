@@ -1,4 +1,4 @@
-import { mergeKeys } from '@primeuix/utils/object';
+import { mergeKeys } from '@peacepieceuix-compatibility/utils/object';
 import Theme from '../config/index';
 
 export const $t = (theme: any = {}) => {

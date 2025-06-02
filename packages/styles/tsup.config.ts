@@ -14,7 +14,7 @@ export default defineConfig([
         entry,
         format: ['esm'],
         outDir: 'dist',
-        external: [/^@primeuix\/(.*)$/],
+        external: [/^@peacepieceuix-compatibility\/(.*)$/],
         minify: 'terser',
         sourcemap: true,
         splitting: false,
@@ -33,7 +33,7 @@ export default defineConfig([
         format: ['esm'],
         outDir: 'dist',
         dts: true,
-        external: [/^@primeuix\/(.*)$/],
+        external: [/^@peacepieceuix-compatibility\/(.*)$/],
         minify: true,
         sourcemap: true,
         splitting: false

@@ -14,7 +14,7 @@ export default defineConfig({
     format: ['esm'],
     outDir: 'dist',
     dts: true,
-    external: [/^@primeuix\/(.*)$/],
+    external: [/^@peacepieceuix-compatibility\/(.*)$/],
     sourcemap: true,
     splitting: false
 });

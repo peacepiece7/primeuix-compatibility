@@ -20,7 +20,7 @@ export default defineConfig([
         format: ['esm'],
         outDir: 'dist',
         dts: true,
-        external: [/^@primeuix\/(.*)$/, 'joi', 'superstruct', 'valibot', 'yup', 'zod'],
+        external: [/^@peacepieceuix-compatibility\/(.*)$/, 'joi', 'superstruct', 'valibot', 'yup', 'zod'],
         minify: true,
         sourcemap: true,
         splitting: false,

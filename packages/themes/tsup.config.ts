@@ -22,7 +22,7 @@ export default defineConfig([
         dts: {
             entry: ['src/index.ts']
         },
-        external: [/^@primeuix\/(.*)$/],
+        external: [/^@peacepieceuix-compatibility\/(.*)$/],
         minify: 'terser',
         sourcemap: true,
         splitting: false,

@@ -1,4 +1,4 @@
-import { matchRegex } from '@primeuix/utils';
+import { matchRegex } from '@peacepieceuix-compatibility/utils';
 import { EXPR_REGEX } from '../../utils/index';
 import shade from './shade';
 import tint from './tint';

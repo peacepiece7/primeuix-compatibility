@@ -1,4 +1,4 @@
-import { resolve } from '@primeuix/utils';
+import { resolve } from '@peacepieceuix-compatibility/utils';
 import { evaluateDtExpressions, type StyleType } from '..';
 import { dt } from './dt';
 
