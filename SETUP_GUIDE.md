@@ -43,3 +43,11 @@ cd ../../packages/utils && pnpm run dev:link
 
 pnpm run vue:setup
 ```
+
+## 버전 관리
+
+```sh
+pnpm changeset         # 새 changeset 생성
+pnpm changeset version # 버전 업데이트
+pnpm changeset publish # 배포
+```

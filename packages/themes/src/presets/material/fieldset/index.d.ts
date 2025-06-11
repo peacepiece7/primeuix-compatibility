@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { FieldsetTokenSections } from '@primeuix/themes/types/fieldset';
+import type { StyleOptions } from '@peacepieceuix-compatibility/styled';
+import type { FieldsetTokenSections } from '@peacepieceuix-compatibility/themes/types/fieldset';
 
-export * from '@primeuix/themes/types/fieldset';
+export * from '@peacepieceuix-compatibility/themes/types/fieldset';
 
 declare const root: FieldsetTokenSections.Root;
 declare const legend: FieldsetTokenSections.Legend;

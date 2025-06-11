@@ -1,4 +1,4 @@
-import type { ButtonDesignTokens, ButtonTokenSections } from '@primeuix/themes/types/button';
+import type { ButtonDesignTokens, ButtonTokenSections } from '@peacepieceuix-compatibility/themes/types/button';
 
 export const root: ButtonTokenSections.Root = {
     borderRadius: '{form.field.border.radius}',

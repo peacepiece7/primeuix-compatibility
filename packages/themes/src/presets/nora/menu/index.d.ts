@@ -1,6 +1,6 @@
-import type { MenuTokenSections } from '@primeuix/themes/types/menu';
+import type { MenuTokenSections } from '@peacepieceuix-compatibility/themes/types/menu';
 
-export * from '@primeuix/themes/types/menu';
+export * from '@peacepieceuix-compatibility/themes/types/menu';
 
 declare const root: MenuTokenSections.Root;
 declare const list: MenuTokenSections.List;

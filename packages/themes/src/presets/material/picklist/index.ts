@@ -1,4 +1,4 @@
-import type { PickListDesignTokens, PickListTokenSections } from '@primeuix/themes/types/picklist';
+import type { PickListDesignTokens, PickListTokenSections } from '@peacepieceuix-compatibility/themes/types/picklist';
 
 export const root: PickListTokenSections.Root = {
     gap: '1.125rem'

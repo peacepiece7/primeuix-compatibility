@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { InputNumberTokenSections } from '@primeuix/themes/types/inputnumber';
+import type { StyleOptions } from '@peacepieceuix-compatibility/styled';
+import type { InputNumberTokenSections } from '@peacepieceuix-compatibility/themes/types/inputnumber';
 
-export * from '@primeuix/themes/types/inputnumber';
+export * from '@peacepieceuix-compatibility/themes/types/inputnumber';
 
 declare const root: InputNumberTokenSections.Root;
 declare const button: InputNumberTokenSections.Button;

@@ -1,6 +1,6 @@
-import type { CascadeSelectTokenSections } from '@primeuix/themes/types/cascadeselect';
+import type { CascadeSelectTokenSections } from '@peacepieceuix-compatibility/themes/types/cascadeselect';
 
-export * from '@primeuix/themes/types/cascadeselect';
+export * from '@peacepieceuix-compatibility/themes/types/cascadeselect';
 
 declare const root: CascadeSelectTokenSections.Root;
 declare const dropdown: CascadeSelectTokenSections.Dropdown;

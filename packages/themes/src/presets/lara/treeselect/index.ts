@@ -1,4 +1,4 @@
-import type { TreeSelectDesignTokens, TreeSelectTokenSections } from '@primeuix/themes/types/treeselect';
+import type { TreeSelectDesignTokens, TreeSelectTokenSections } from '@peacepieceuix-compatibility/themes/types/treeselect';
 
 export const root: TreeSelectTokenSections.Root = {
     background: '{form.field.background}',

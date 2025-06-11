@@ -1,6 +1,6 @@
-import type { DividerTokenSections } from '@primeuix/themes/types/divider';
+import type { DividerTokenSections } from '@peacepieceuix-compatibility/themes/types/divider';
 
-export * from '@primeuix/themes/types/divider';
+export * from '@peacepieceuix-compatibility/themes/types/divider';
 
 declare const root: DividerTokenSections.Root;
 declare const content: DividerTokenSections.Content;

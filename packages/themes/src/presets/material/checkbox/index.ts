@@ -1,4 +1,4 @@
-import type { CheckboxDesignTokens, CheckboxTokenSections } from '@primeuix/themes/types/checkbox';
+import type { CheckboxDesignTokens, CheckboxTokenSections } from '@peacepieceuix-compatibility/themes/types/checkbox';
 
 export const root: CheckboxTokenSections.Root = {
     borderRadius: '{border.radius.xs}',

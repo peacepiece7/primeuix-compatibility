@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { SelectTokenSections } from '@primeuix/themes/types/select';
+import type { StyleOptions } from '@peacepieceuix-compatibility/styled';
+import type { SelectTokenSections } from '@peacepieceuix-compatibility/themes/types/select';
 
-export * from '@primeuix/themes/types/select';
+export * from '@peacepieceuix-compatibility/themes/types/select';
 
 declare const root: SelectTokenSections.Root;
 declare const dropdown: SelectTokenSections.Dropdown;

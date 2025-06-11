@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { TextareaTokenSections } from '@primeuix/themes/types/textarea';
+import type { StyleOptions } from '@peacepieceuix-compatibility/styled';
+import type { TextareaTokenSections } from '@peacepieceuix-compatibility/themes/types/textarea';
 
-export * from '@primeuix/themes/types/textarea';
+export * from '@peacepieceuix-compatibility/themes/types/textarea';
 
 declare const root: TextareaTokenSections.Root;
 declare const css: TextareaTokenSections.CSS;

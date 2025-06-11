@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { PanelMenuTokenSections } from '@primeuix/themes/types/panelmenu';
+import type { StyleOptions } from '@peacepieceuix-compatibility/styled';
+import type { PanelMenuTokenSections } from '@peacepieceuix-compatibility/themes/types/panelmenu';
 
-export * from '@primeuix/themes/types/panelmenu';
+export * from '@peacepieceuix-compatibility/themes/types/panelmenu';
 
 declare const root: PanelMenuTokenSections.Root;
 declare const panel: PanelMenuTokenSections.Panel;

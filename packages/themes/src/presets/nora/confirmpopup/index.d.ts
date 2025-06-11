@@ -1,6 +1,6 @@
-import type { ConfirmPopupTokenSections } from '@primeuix/themes/types/confirmpopup';
+import type { ConfirmPopupTokenSections } from '@peacepieceuix-compatibility/themes/types/confirmpopup';
 
-export * from '@primeuix/themes/types/confirmpopup';
+export * from '@peacepieceuix-compatibility/themes/types/confirmpopup';
 
 declare const root: ConfirmPopupTokenSections.Root;
 declare const content: ConfirmPopupTokenSections.Content;

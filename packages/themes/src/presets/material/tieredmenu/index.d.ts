@@ -1,6 +1,6 @@
-import type { TieredMenuTokenSections } from '@primeuix/themes/types/tieredmenu';
+import type { TieredMenuTokenSections } from '@peacepieceuix-compatibility/themes/types/tieredmenu';
 
-export * from '@primeuix/themes/types/tieredmenu';
+export * from '@peacepieceuix-compatibility/themes/types/tieredmenu';
 
 declare const root: TieredMenuTokenSections.Root;
 declare const list: TieredMenuTokenSections.List;

@@ -1,4 +1,4 @@
-import type { DialogDesignTokens, DialogTokenSections } from '@primeuix/themes/types/dialog';
+import type { DialogDesignTokens, DialogTokenSections } from '@peacepieceuix-compatibility/themes/types/dialog';
 
 export const root: DialogTokenSections.Root = {
     background: '{overlay.modal.background}',

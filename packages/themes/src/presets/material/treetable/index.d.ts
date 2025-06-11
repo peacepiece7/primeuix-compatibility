@@ -1,6 +1,6 @@
-import type { TreeTableTokenSections } from '@primeuix/themes/types/treetable';
+import type { TreeTableTokenSections } from '@peacepieceuix-compatibility/themes/types/treetable';
 
-export * from '@primeuix/themes/types/treetable';
+export * from '@peacepieceuix-compatibility/themes/types/treetable';
 
 declare const root: TreeTableTokenSections.Root;
 declare const header: TreeTableTokenSections.Header;

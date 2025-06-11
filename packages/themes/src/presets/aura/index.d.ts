@@ -1,5 +1,5 @@
-import type { AuraBaseDesignTokens } from '@primeuix/themes/aura/base';
-import type { Preset } from '@primeuix/themes/types';
+import type { AuraBaseDesignTokens } from '@peacepieceuix-compatibility/themes/aura/base';
+import type { Preset } from '@peacepieceuix-compatibility/themes/types';
 
 /**
  *

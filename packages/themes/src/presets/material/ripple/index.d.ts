@@ -1,6 +1,6 @@
-import type { RippleTokenSections } from '@primeuix/themes/types/ripple';
+import type { RippleTokenSections } from '@peacepieceuix-compatibility/themes/types/ripple';
 
-export * from '@primeuix/themes/types/ripple';
+export * from '@peacepieceuix-compatibility/themes/types/ripple';
 
 declare const colorScheme: RippleTokenSections.ColorScheme;
 declare const css: RippleTokenSections.CSS;

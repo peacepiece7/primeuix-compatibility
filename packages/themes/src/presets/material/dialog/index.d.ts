@@ -1,6 +1,6 @@
-import type { DialogTokenSections } from '@primeuix/themes/types/dialog';
+import type { DialogTokenSections } from '@peacepieceuix-compatibility/themes/types/dialog';
 
-export * from '@primeuix/themes/types/dialog';
+export * from '@peacepieceuix-compatibility/themes/types/dialog';
 
 declare const root: DialogTokenSections.Root;
 declare const header: DialogTokenSections.Header;

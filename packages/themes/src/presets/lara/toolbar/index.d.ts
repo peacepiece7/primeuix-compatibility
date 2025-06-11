@@ -1,6 +1,6 @@
-import type { ToolbarTokenSections } from '@primeuix/themes/types/toolbar';
+import type { ToolbarTokenSections } from '@peacepieceuix-compatibility/themes/types/toolbar';
 
-export * from '@primeuix/themes/types/toolbar';
+export * from '@peacepieceuix-compatibility/themes/types/toolbar';
 
 declare const root: ToolbarTokenSections.Root;
 declare const colorScheme: ToolbarTokenSections.ColorScheme;

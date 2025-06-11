@@ -1,6 +1,6 @@
-import type { ChipTokenSections } from '@primeuix/themes/types/chip';
+import type { ChipTokenSections } from '@peacepieceuix-compatibility/themes/types/chip';
 
-export * from '@primeuix/themes/types/chip';
+export * from '@peacepieceuix-compatibility/themes/types/chip';
 
 declare const root: ChipTokenSections.Root;
 declare const image: ChipTokenSections.Image;

@@ -1,4 +1,4 @@
-import type { DataViewDesignTokens, DataViewTokenSections } from '@primeuix/themes/types/dataview';
+import type { DataViewDesignTokens, DataViewTokenSections } from '@peacepieceuix-compatibility/themes/types/dataview';
 
 export const root: DataViewTokenSections.Root = {
     borderColor: 'transparent',

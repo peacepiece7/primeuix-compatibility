@@ -1,6 +1,6 @@
-import type { InputGroupTokenSections } from '@primeuix/themes/types/inputgroup';
+import type { InputGroupTokenSections } from '@peacepieceuix-compatibility/themes/types/inputgroup';
 
-export * from '@primeuix/themes/types/inputgroup';
+export * from '@peacepieceuix-compatibility/themes/types/inputgroup';
 
 declare const addon: InputGroupTokenSections.Addon;
 declare const colorScheme: InputGroupTokenSections.ColorScheme;

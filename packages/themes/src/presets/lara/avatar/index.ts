@@ -1,4 +1,4 @@
-import type { AvatarDesignTokens, AvatarTokenSections } from '@primeuix/themes/types/avatar';
+import type { AvatarDesignTokens, AvatarTokenSections } from '@peacepieceuix-compatibility/themes/types/avatar';
 
 export const root: AvatarTokenSections.Root = {
     width: '2rem',

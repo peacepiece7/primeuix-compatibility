@@ -1,6 +1,6 @@
-import type { DataViewTokenSections } from '@primeuix/themes/types/dataview';
+import type { DataViewTokenSections } from '@peacepieceuix-compatibility/themes/types/dataview';
 
-export * from '@primeuix/themes/types/dataview';
+export * from '@peacepieceuix-compatibility/themes/types/dataview';
 
 declare const root: DataViewTokenSections.Root;
 declare const header: DataViewTokenSections.Header;

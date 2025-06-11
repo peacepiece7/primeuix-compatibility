@@ -1,6 +1,6 @@
-import type { SplitButtonTokenSections } from '@primeuix/themes/types/splitbutton';
+import type { SplitButtonTokenSections } from '@peacepieceuix-compatibility/themes/types/splitbutton';
 
-export * from '@primeuix/themes/types/splitbutton';
+export * from '@peacepieceuix-compatibility/themes/types/splitbutton';
 
 declare const root: SplitButtonTokenSections.Root;
 declare const css: SplitButtonTokenSections.CSS;

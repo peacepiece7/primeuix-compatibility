@@ -1,6 +1,6 @@
-import type { AutoCompleteTokenSections } from '@primeuix/themes/types/autocomplete';
+import type { AutoCompleteTokenSections } from '@peacepieceuix-compatibility/themes/types/autocomplete';
 
-export * from '@primeuix/themes/types/autocomplete';
+export * from '@peacepieceuix-compatibility/themes/types/autocomplete';
 
 declare const root: AutoCompleteTokenSections.Root;
 declare const overlay: AutoCompleteTokenSections.Overlay;

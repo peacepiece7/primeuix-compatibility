@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { ToggleButtonTokenSections } from '@primeuix/themes/types/togglebutton';
+import type { StyleOptions } from '@peacepieceuix-compatibility/styled';
+import type { ToggleButtonTokenSections } from '@peacepieceuix-compatibility/themes/types/togglebutton';
 
-export * from '@primeuix/themes/types/togglebutton';
+export * from '@peacepieceuix-compatibility/themes/types/togglebutton';
 
 declare const root: ToggleButtonTokenSections.Root;
 declare const icon: ToggleButtonTokenSections.Icon;

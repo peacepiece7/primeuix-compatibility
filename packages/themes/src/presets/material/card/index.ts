@@ -1,4 +1,4 @@
-import type { CardDesignTokens, CardTokenSections } from '@primeuix/themes/types/card';
+import type { CardDesignTokens, CardTokenSections } from '@peacepieceuix-compatibility/themes/types/card';
 
 export const root: CardTokenSections.Root = {
     background: '{content.background}',

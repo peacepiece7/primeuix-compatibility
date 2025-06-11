@@ -1,6 +1,6 @@
-import type { IconFieldTokenSections } from '@primeuix/themes/types/iconfield';
+import type { IconFieldTokenSections } from '@peacepieceuix-compatibility/themes/types/iconfield';
 
-export * from '@primeuix/themes/types/iconfield';
+export * from '@peacepieceuix-compatibility/themes/types/iconfield';
 
 declare const icon: IconFieldTokenSections.Icon;
 declare const _default: {

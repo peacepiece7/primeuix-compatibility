@@ -3,7 +3,7 @@
  * @module themes
  *
  */
-import type { StyleOptions, ThemeOptions } from '@primeuix/styled';
+import type { StyleOptions, ThemeOptions } from '@peacepieceuix-compatibility/styled';
 
 import type { AccordionDesignTokens } from './accordion';
 import type { AutoCompleteDesignTokens } from './autocomplete';

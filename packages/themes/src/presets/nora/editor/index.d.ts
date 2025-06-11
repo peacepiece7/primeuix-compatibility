@@ -1,6 +1,6 @@
-import type { EditorTokenSections } from '@primeuix/themes/types/editor';
+import type { EditorTokenSections } from '@peacepieceuix-compatibility/themes/types/editor';
 
-export * from '@primeuix/themes/types/editor';
+export * from '@peacepieceuix-compatibility/themes/types/editor';
 
 declare const toolbar: EditorTokenSections.Toolbar;
 declare const toolbarItem: EditorTokenSections.ToolbarItem;

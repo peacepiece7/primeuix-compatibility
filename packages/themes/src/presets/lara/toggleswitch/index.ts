@@ -1,4 +1,4 @@
-import type { ToggleSwitchDesignTokens, ToggleSwitchTokenSections } from '@primeuix/themes/types/toggleswitch';
+import type { ToggleSwitchDesignTokens, ToggleSwitchTokenSections } from '@peacepieceuix-compatibility/themes/types/toggleswitch';
 
 export const root: ToggleSwitchTokenSections.Root = {
     width: '3rem',

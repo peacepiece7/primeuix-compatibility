@@ -1,4 +1,4 @@
-import type { FileUploadDesignTokens, FileUploadTokenSections } from '@primeuix/themes/types/fileupload';
+import type { FileUploadDesignTokens, FileUploadTokenSections } from '@peacepieceuix-compatibility/themes/types/fileupload';
 
 export const root: FileUploadTokenSections.Root = {
     background: '{content.background}',

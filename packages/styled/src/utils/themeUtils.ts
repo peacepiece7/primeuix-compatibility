@@ -1,4 +1,4 @@
-import { isArray, isEmpty, isNotEmpty, isObject, matchRegex, minifyCSS, resolve, toTokenKey } from '@primeuix/utils/object';
+import { isArray, isEmpty, isNotEmpty, isObject, matchRegex, minifyCSS, resolve, toTokenKey } from '@peacepieceuix-compatibility/utils/object';
 import { dt, toVariables } from '../helpers/index';
 import { CALC_REGEX, EXPR_REGEX, getRule, VAR_REGEX } from './sharedUtils';
 

@@ -1,4 +1,4 @@
-import type { MenubarDesignTokens, MenubarTokenSections } from '@primeuix/themes/types/menubar';
+import type { MenubarDesignTokens, MenubarTokenSections } from '@peacepieceuix-compatibility/themes/types/menubar';
 
 export const root: MenubarTokenSections.Root = {
     background: '{content.background}',

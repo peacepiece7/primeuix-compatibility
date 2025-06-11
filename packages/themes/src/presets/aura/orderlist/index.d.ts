@@ -1,6 +1,6 @@
-import type { OrderListTokenSections } from '@primeuix/themes/types/orderlist';
+import type { OrderListTokenSections } from '@peacepieceuix-compatibility/themes/types/orderlist';
 
-export * from '@primeuix/themes/types/orderlist';
+export * from '@peacepieceuix-compatibility/themes/types/orderlist';
 
 declare const root: OrderListTokenSections.Root;
 declare const controls: OrderListTokenSections.Controls;

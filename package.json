@@ -11,7 +11,8 @@
         "url": "https://github.com/primefaces/primeuix/issues"
     },
     "scripts": {
-        "setup": "npx rimraf --glob **/node_modules **/dist ./pnpm-lock.yaml && pnpm run ng:setup && pnpm run vue:setup && pnpm run react:setup && pnpm run init",
+        "setup": "npx rimraf --glob **/node_modules **/dist ./pnpm-lock.yaml && pnpm run init",
+        "setup:submodule": "npx rimraf --glob **/node_modules **/dist ./pnpm-lock.yaml && pnpm run ng:setup && pnpm run vue:setup && pnpm run react:setup",
         "init": "pnpm install && husky",
         "link": "pnpm --filter './packages/*' dev:link",
         "release": "pnpm run build && pnpm recursive publish --filter './packages/*' --no-git-checks --report-summary",
@@ -73,6 +74,11 @@
     },
     "packageManager": "pnpm@9.6.0",
     "lint-staged": {
-        "**/*.{js,mjs,ts,mts,d.ts}": ["prettier --write"]
+        "**/*.{js,mjs,ts,mts,d.ts}": [
+            "prettier --write"
+        ]
+    },
+    "dependencies": {
+        "zod": "^3.23.8"
     }
 }

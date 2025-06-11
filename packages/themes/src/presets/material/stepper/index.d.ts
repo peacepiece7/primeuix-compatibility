@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { StepperTokenSections } from '@primeuix/themes/types/stepper';
+import type { StyleOptions } from '@peacepieceuix-compatibility/styled';
+import type { StepperTokenSections } from '@peacepieceuix-compatibility/themes/types/stepper';
 
-export * from '@primeuix/themes/types/stepper';
+export * from '@peacepieceuix-compatibility/themes/types/stepper';
 
 declare const root: StepperTokenSections.Root;
 declare const separator: StepperTokenSections.Separator;

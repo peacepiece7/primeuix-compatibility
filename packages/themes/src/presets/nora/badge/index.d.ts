@@ -1,6 +1,6 @@
-import type { BadgeTokenSections } from '@primeuix/themes/types/badge';
+import type { BadgeTokenSections } from '@peacepieceuix-compatibility/themes/types/badge';
 
-export * from '@primeuix/themes/types/badge';
+export * from '@peacepieceuix-compatibility/themes/types/badge';
 
 declare const root: BadgeTokenSections.Root;
 declare const dot: BadgeTokenSections.Dot;

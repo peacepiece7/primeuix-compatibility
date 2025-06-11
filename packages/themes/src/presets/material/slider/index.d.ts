@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { SliderTokenSections } from '@primeuix/themes/types/slider';
+import type { StyleOptions } from '@peacepieceuix-compatibility/styled';
+import type { SliderTokenSections } from '@peacepieceuix-compatibility/themes/types/slider';
 
-export * from '@primeuix/themes/types/slider';
+export * from '@peacepieceuix-compatibility/themes/types/slider';
 
 declare const root: SliderTokenSections.Root;
 declare const track: SliderTokenSections.Track;

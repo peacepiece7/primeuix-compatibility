@@ -1,6 +1,6 @@
-import type { CarouselTokenSections } from '@primeuix/themes/types/carousel';
+import type { CarouselTokenSections } from '@peacepieceuix-compatibility/themes/types/carousel';
 
-export * from '@primeuix/themes/types/carousel';
+export * from '@peacepieceuix-compatibility/themes/types/carousel';
 
 declare const root: CarouselTokenSections.Root;
 declare const content: CarouselTokenSections.Content;

@@ -1,6 +1,6 @@
-import type { PickListTokenSections } from '@primeuix/themes/types/picklist';
+import type { PickListTokenSections } from '@peacepieceuix-compatibility/themes/types/picklist';
 
-export * from '@primeuix/themes/types/picklist';
+export * from '@peacepieceuix-compatibility/themes/types/picklist';
 
 declare const root: PickListTokenSections.Root;
 declare const controls: PickListTokenSections.Controls;

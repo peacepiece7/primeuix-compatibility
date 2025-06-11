@@ -1,6 +1,6 @@
-import type { DataTableTokenSections } from '@primeuix/themes/types/datatable';
+import type { DataTableTokenSections } from '@peacepieceuix-compatibility/themes/types/datatable';
 
-export * from '@primeuix/themes/types/datatable';
+export * from '@peacepieceuix-compatibility/themes/types/datatable';
 
 declare const root: DataTableTokenSections.Root;
 declare const header: DataTableTokenSections.Header;

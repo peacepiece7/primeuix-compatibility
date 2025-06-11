@@ -1,6 +1,6 @@
-import type { SliderTokenSections } from '@primeuix/themes/types/slider';
+import type { SliderTokenSections } from '@peacepieceuix-compatibility/themes/types/slider';
 
-export * from '@primeuix/themes/types/slider';
+export * from '@peacepieceuix-compatibility/themes/types/slider';
 
 declare const root: SliderTokenSections.Root;
 declare const track: SliderTokenSections.Track;

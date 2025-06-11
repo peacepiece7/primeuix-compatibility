@@ -1,6 +1,6 @@
-import type { DatePickerTokenSections } from '@primeuix/themes/types/datepicker';
+import type { DatePickerTokenSections } from '@peacepieceuix-compatibility/themes/types/datepicker';
 
-export * from '@primeuix/themes/types/datepicker';
+export * from '@peacepieceuix-compatibility/themes/types/datepicker';
 
 declare const root: DatePickerTokenSections.Root;
 declare const panel: DatePickerTokenSections.Panel;

@@ -24,7 +24,8 @@ export default tseslint.config([
                 { blankLine: 'always', prev: '*', next: 'block-like' },
                 { blankLine: 'always', prev: ['import'], next: ['const', 'let', 'var'] }
             ]
-        }
+        },
+        '@typescript-eslint/no-explicit-any': 'off'
     },
     {
         files: ['**/__tests__/**/*', '**/*.test.*'],
