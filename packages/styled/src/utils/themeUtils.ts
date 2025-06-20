@@ -1,6 +1,6 @@
-import { isArray, isEmpty, isNotEmpty, isObject, matchRegex, minifyCSS, resolve, toTokenKey } from '@peacepieceuix-compatibility/utils/object';
+import { isNotEmpty, isObject, matchRegex, minifyCSS, resolve } from '@peacepieceuix-compatibility/utils/object';
 import { dt, toVariables } from '../helpers/index';
-import { CALC_REGEX, EXPR_REGEX, getRule, VAR_REGEX } from './sharedUtils';
+import { getRule } from './sharedUtils';
 
 export default {
     regex: {
@@ -163,7 +163,7 @@ export default {
         const { cssLayer } = options;
 
         if (cssLayer) {
-            const order = resolve(cssLayer.order || 'primeui', params);
+            const order = resolve(cssLayer.order || cssLayer.name || 'primeui', params);
 
             return `@layer ${order}`;
         }
@@ -179,7 +179,7 @@ export default {
         return Object.entries(common || {})
             .reduce((acc: any, [key, value]) => {
                 if (isObject(value) && Object.hasOwn(value, 'css')) {
-                    const _css = minifyCSS(value.css);
+                    const _css = minifyCSS((value as any).css);
                     const id = `${key}-variables`;
 
                     acc.push(`<style data-primevue-style-id="${id}" ${_props}>${_css}</style>`); // @todo data-primevue -> data-primeui check in primevue usestyle
@@ -199,7 +199,7 @@ export default {
         return preset_css ? `<style data-primevue-style-id="${name}-variables" ${_props}>${minifyCSS(preset_css)}</style>` : ''; // @todo check
     },
     createTokens(obj: any = {}, defaults: any, parentKey: string = '', parentPath: string = '', tokens: any = {}) {
-        Object.entries(obj).forEach(([key, value]) => {
+        /*Object.entries(obj).forEach(([key, value]) => {
             const currentKey = matchRegex(key, defaults.variable.excludedKeyRegex) ? parentKey : parentKey ? `${parentKey}.${toTokenKey(key)}` : toTokenKey(key);
             const currentPath = parentPath ? `${parentPath}.${key}` : key;
 
@@ -253,7 +253,8 @@ export default {
             }
         });
 
-        return tokens;
+        return tokens;*/
+        return {};
     },
     getTokenValue(tokens: any, path: string, defaults: any) {
         const normalizePath = (str: string) => {
